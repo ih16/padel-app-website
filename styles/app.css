@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  @apply w-full lg:max-w-[1160px] 2xl:max-w-[1360px] mx-auto flex flex-col px-2;
+}
+
+.shadow-navbar {
+  box-shadow: 0px 9px 51px rgba(0, 0, 0, 0.03),
+    0px 3.75998px 21.3066px rgba(0, 0, 0, 0.0215656),
+    0px 2.01027px 11.3915px rgba(0, 0, 0, 0.0178832),
+    0px 1.12694px 6.38599px rgba(0, 0, 0, 0.015),
+    0px 0.598509px 3.39155px rgba(0, 0, 0, 0.0121168),
+    0px 0.249053px 1.4113px rgba(0, 0, 0, 0.00843437);
+}
+
+.shadow-card {
+  box-shadow: 0px 6px 8px -6px rgba(24, 39, 75, 0.12),
+    0px 8px 16px -6px rgba(24, 39, 75, 0.08);
+}
+
+.bg-gradiant-image {
+  background-image: url("../assets/images/bg-gradiant.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    180deg,
+    #f7f9fc 73.1%,
+    rgba(247, 249, 252, 0) 100%
+  );
+}
+
+.title {
+  @apply font-clash font-semibold text-5xl text-gray-900 leading-[60px];
+}
+
+p {
+  @apply leading-[30px] text-xl text-gray-700 my-4;
+}
+
+h2 {
+  @apply font-clash text-4xl font-medium mt-8 mb-4;
+}
+
+h3 {
+  @apply font-clash text-2xl font-medium mt-4 mb-2;
+}
